@@ -1,0 +1,446 @@
+@font-face{
+    font-family: munro;
+    src: url(Munro.ttf);
+}
+
+body
+{
+    margin-top: -8px;
+    background-color: lightgray;
+}
+
+.dethele {
+    margin: 8px 0 auto auto;
+    
+    margin-left: 12%;
+    margin-right: 12%;
+    
+    box-shadow: 4px 0 15px -4px, -4px 0 15px -4px;
+    
+}
+
+#banner-left
+{
+    float: left;
+    left: 0px;
+    position: fixed;
+    z-index: -3;
+}
+
+#banner-right
+{
+    float: right;
+    position: fixed;
+    right: 0px;
+    z-index: -3;
+}
+
+#gradient-up-left
+{
+    float: left;
+    position: fixed;
+    left: 0px;
+    top: 9px;
+    z-index: -;
+    
+    margin-left: -8px;
+    margin-top: -8px;
+    
+}
+
+#gradient-up-right 
+{
+    float: right;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+    
+    margin-top: -8px;
+    margin-right: -8px;
+}
+
+#gradient-down-left
+{
+    float: left;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+    
+    margin-left: -8px;
+    margin-bottom: -8px;
+}
+
+#gradient-down-right
+{
+    float: right;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+    
+    margin-left: -8px;
+    margin-bottom: -8px;
+}
+
+h1
+{
+
+    text-align: center;
+    font-family: munro, sans-serif;
+    font-size: 4em;  
+}
+
+h2
+{
+   text-align: center;
+    font-family: munro, sans-serif;
+    font-size: 2em;  
+}
+
+.ansigt
+{
+    text-align: center;
+}
+
+.header
+{
+   text-align: center;
+   margin: auto;
+   width: 500px; 
+    
+    
+    border-bottom: 3px solid black;   
+}
+
+ul, li, a
+{
+    display: inline;
+    text-align: center;
+    font-family: munro, sans-serif;
+    font-size: 1.2em;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+#active-site
+{
+    text-decoration: underline;
+}
+
+
+
+a.plink
+{
+    font-family: Times-New-Roman;
+    font-size: 1em;
+    margin: 0;
+    text-decoration: none;
+    color:darkblue;
+}
+
+footer
+{
+    text-align: center;
+    margin-top: 20%;
+    opacity: 0.6;
+}
+
+footer.contact-footer
+{
+    text-align: center;
+    margin-top: 0%;
+    opacity: 0.6;
+}
+
+#footer-logo
+{
+    font-size: 2em;
+}
+
+
+
+.nav
+{
+    text-align: center;
+    margin: auto;
+}
+
+#a1
+{
+    margin-top: 30px;
+    box-shadow: 8px 8px 5px #888888;
+    
+    border-radius: 20px;
+}
+
+#a2
+{
+    margin-top: 20px;
+    box-shadow: 8px 8px 5px #888888;
+    
+    border-radius: 20px;
+}
+
+#a3
+{
+    margin-top: 20px;
+    box-shadow: 8px 8px 5px #888888;
+    
+    border-radius: 20px;
+}
+
+#a1p
+{
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    font-family: Times-New-Roman;
+    font-size: 1.23em;
+    width: 53%;
+    margin: auto;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 0 5px;
+    
+}
+
+/*--------------------------------------------------------HOVER EFFECT ON ARTICLES--------------------------------------------------------*/
+
+#a1:hover
+{
+    width: 830px;
+    transition: width 0.5s
+}
+
+#a2:hover
+{
+    width: 830px;
+    transition: width 0.5s
+}
+
+#a3:hover
+{
+    width: 830px;
+    transition: width 0.5s
+}
+
+#a1:after, #a1
+{
+    width: 800px;
+    transition: width 0.5s;
+}
+
+#a2:after, #a2
+{
+    width: 800px;
+    transition: width 0.5s;
+}
+
+#a3:after, #a3
+{
+    width: 800px;
+    transition: width 0.5s;
+}
+
+/*--------------------------------------------------------HOVER EFFECT ON ARTICLES--------------------------------------------------------*/
+
+.articles
+{
+    text-align: center;
+    
+}
+
+.a1-text
+{
+    position: absolute;
+    margin: auto;
+    bottom: 67%;
+    left: 39%;
+    font-size: 3em;
+    font-family: munro, sans-serif;
+    color: white;
+    visibility: hidden;
+    z-index: 1;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.a2-text
+{
+    position: absolute;
+    margin: auto;
+    bottom: 29%;
+    left: 34%;
+    font-size: 3em;
+    font-family: munro, sans-serif;
+    color: white;
+    visibility: hidden;
+    z-index: 1;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.a3-text
+{
+    position: absolute;
+    margin: auto;
+    bottom: -9%;
+    left: 33%;
+    font-size: 3em;
+    font-family: munro, sans-serif;
+    color: white;
+    visibility: hidden;
+    z-index: 1;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#forfatter
+{
+    text-align: center;
+    margin: 8;
+}
+
+/*-------------------------------------------------------- MAKE ARTICLE TEXT VISIBLE ON ARTICLE HOVER--------------------------------------------------------*/
+
+#a1:hover ~ .a1-text
+{
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+#a2:hover ~ .a2-text
+{
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+#a3:hover ~ .a3-text
+{
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.a1-text:hover
+{
+    visibility: visible;
+    opacity: 1; 
+}
+
+.a2-text:hover
+{
+    visibility: visible;
+    opacity: 1; 
+}
+
+.a3-text:hover
+{
+    visibility: visible;
+    opacity: 1; 
+}
+
+.a1-text:hover ~#a1
+{
+    width: 830px;
+}
+
+.a2-text:hover ~ #a2
+{
+    width: 830px;
+}
+
+.a3-text:hover ~ #a3
+{
+    width: 830px;
+}
+
+/*-------------------------------------------------------- MAKE ARTICLE TEXT VISIBLE ON ARTICLE HOVER--------------------------------------------------------*/
+
+input[type=text] 
+{
+    width: 120px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("searchicon.png");
+    background-position: -2px -2px; 
+    background-size: 20%;
+    background-repeat: no-repeat;
+    padding: 1px 20px 6px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    
+    position: absolute;
+    float: right;
+    left: 76%;
+    
+    box-shadow: 1px 0 12px -2px
+    
+}
+
+input[type=text]:focus 
+{
+    width: 150px;
+}
+
+/*-------------------------------------------------------- LAPTOP MEDIA --------------------------------------------------------*/
+
+@media (max-width: 1400px) 
+{
+    .a1-text
+    {
+        position: inherit;
+        color: black;
+    }
+    
+    .a2-text
+    {
+        position: inherit;
+        color: black;
+    }
+    
+    .a3-text
+    {
+        position: inherit;
+        color: black;
+    }
+}
+/*-------------------------------------------------------- LAPTOP MEDIA --------------------------------------------------------*/
+
+.a1html
+{
+    text-align: center;
+    margin-top: 20px;
+    
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
